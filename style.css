@@ -1,0 +1,107 @@
+html,
+body {
+    background-color: #EEEDEB;
+}
+
+.flush_container {
+    background: white;
+    padding: 38px 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 1);
+    max-width: 60em;
+    width: 100%;
+}
+
+.container .output {
+    width: 100%;
+    background-color: #ECF0F3;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+
+.accordion {
+    --bs-accordion-active-bg: #ffff;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button,
+.form-label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.accordion-button.collapsed {
+    border: 1px solid #000000;
+}
+
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+
+/* CSS */
+.btn {
+    font-size: 18px;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+}
+
+.btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: 0 2.6rem;
+    }
+}
+
+/* From Uiverse.io by alexruix */
+.input,
+.output {
+    line-height: 2.5;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+}
+
+.input-group:hover .label,
+.input:focus {
+    color: #05060fc2;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
